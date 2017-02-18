@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE3BD09B1E58AE0D0016D9C4 /* configa.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DE3BD09A1E58AE0D0016D9C4 /* configa.xcconfig */; };
 		DE4D98271E58A84900AAE05F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D98261E58A84900AAE05F /* AppDelegate.swift */; };
 		DE4D98291E58A84900AAE05F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D98281E58A84900AAE05F /* ViewController.swift */; };
 		DE4D982C1E58A84900AAE05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D982A1E58A84900AAE05F /* Main.storyboard */; };
 		DE4D982E1E58A84900AAE05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4D982D1E58A84900AAE05F /* Assets.xcassets */; };
 		DE4D98311E58A84900AAE05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D982F1E58A84900AAE05F /* LaunchScreen.storyboard */; };
 		DE4D983C1E58A84900AAE05F /* ConfiggyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D983B1E58A84900AAE05F /* ConfiggyTests.swift */; };
+		DEA8B9D71E58AFAD00E6B6B5 /* Configgy.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DEA8B9D61E58AFAD00E6B6B5 /* Configgy.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		DE3BD0981E58AC170016D9C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DE3BD09A1E58AE0D0016D9C4 /* configa.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = configa.xcconfig; sourceTree = "<group>"; };
 		DE4D98231E58A84900AAE05F /* Configgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Configgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4D98261E58A84900AAE05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4D98281E58A84900AAE05F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +38,7 @@
 		DE4D98371E58A84900AAE05F /* ConfiggyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfiggyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4D983B1E58A84900AAE05F /* ConfiggyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiggyTests.swift; sourceTree = "<group>"; };
 		DE4D983D1E58A84900AAE05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA8B9D61E58AFAD00E6B6B5 /* Configgy.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Configgy.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,18 +59,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE3BD0991E58AD870016D9C4 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				DE3BD09A1E58AE0D0016D9C4 /* configa.xcconfig */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
 		DE4D981A1E58A84900AAE05F = {
 			isa = PBXGroup;
 			children = (
 				DE3BD0981E58AC170016D9C4 /* README.md */,
+				DEA8B9D51E58AF8C00E6B6B5 /* Config */,
 				DE4D98251E58A84900AAE05F /* Configgy */,
 				DE4D983A1E58A84900AAE05F /* ConfiggyTests */,
 				DE4D98241E58A84900AAE05F /* Products */,
@@ -89,7 +82,6 @@
 		DE4D98251E58A84900AAE05F /* Configgy */ = {
 			isa = PBXGroup;
 			children = (
-				DE3BD0991E58AD870016D9C4 /* Config */,
 				DE4D98261E58A84900AAE05F /* AppDelegate.swift */,
 				DE4D98281E58A84900AAE05F /* ViewController.swift */,
 				DE4D982A1E58A84900AAE05F /* Main.storyboard */,
@@ -107,6 +99,14 @@
 				DE4D983D1E58A84900AAE05F /* Info.plist */,
 			);
 			path = ConfiggyTests;
+			sourceTree = "<group>";
+		};
+		DEA8B9D51E58AF8C00E6B6B5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8B9D61E58AFAD00E6B6B5 /* Configgy.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +196,7 @@
 			files = (
 				DE4D98311E58A84900AAE05F /* LaunchScreen.storyboard in Resources */,
 				DE4D982E1E58A84900AAE05F /* Assets.xcassets in Resources */,
-				DE3BD09B1E58AE0D0016D9C4 /* configa.xcconfig in Resources */,
+				DEA8B9D71E58AFAD00E6B6B5 /* Configgy.xcconfig in Resources */,
 				DE4D982C1E58A84900AAE05F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
