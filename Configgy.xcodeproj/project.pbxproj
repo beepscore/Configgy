@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE3BD0971E58AB590016D9C4 /* configa.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DE3BD0961E58AB590016D9C4 /* configa.xcconfig */; };
 		DE4D98271E58A84900AAE05F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D98261E58A84900AAE05F /* AppDelegate.swift */; };
 		DE4D98291E58A84900AAE05F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D98281E58A84900AAE05F /* ViewController.swift */; };
 		DE4D982C1E58A84900AAE05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D982A1E58A84900AAE05F /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE3BD0961E58AB590016D9C4 /* configa.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = configa.xcconfig; sourceTree = "<group>"; };
 		DE4D98231E58A84900AAE05F /* Configgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Configgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4D98261E58A84900AAE05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4D98281E58A84900AAE05F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		DE4D981A1E58A84900AAE05F = {
 			isa = PBXGroup;
 			children = (
+				DE3BD0961E58AB590016D9C4 /* configa.xcconfig */,
 				DE4D98251E58A84900AAE05F /* Configgy */,
 				DE4D983A1E58A84900AAE05F /* ConfiggyTests */,
 				DE4D98241E58A84900AAE05F /* Products */,
@@ -183,6 +186,7 @@
 			files = (
 				DE4D98311E58A84900AAE05F /* LaunchScreen.storyboard in Resources */,
 				DE4D982E1E58A84900AAE05F /* Assets.xcassets in Resources */,
+				DE3BD0971E58AB590016D9C4 /* configa.xcconfig in Resources */,
 				DE4D982C1E58A84900AAE05F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +416,7 @@
 				DE4D98421E58A84900AAE05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE4D98431E58A84900AAE05F /* Build configuration list for PBXNativeTarget "ConfiggyTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				DE4D98451E58A84900AAE05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
