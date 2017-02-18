@@ -13,7 +13,6 @@
 		DE4D982E1E58A84900AAE05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4D982D1E58A84900AAE05F /* Assets.xcassets */; };
 		DE4D98311E58A84900AAE05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4D982F1E58A84900AAE05F /* LaunchScreen.storyboard */; };
 		DE4D983C1E58A84900AAE05F /* ConfiggyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D983B1E58A84900AAE05F /* ConfiggyTests.swift */; };
-		DEA8B9D71E58AFAD00E6B6B5 /* Configgy.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DEA8B9D61E58AFAD00E6B6B5 /* Configgy.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,7 +195,6 @@
 			files = (
 				DE4D98311E58A84900AAE05F /* LaunchScreen.storyboard in Resources */,
 				DE4D982E1E58A84900AAE05F /* Assets.xcassets in Resources */,
-				DEA8B9D71E58AFAD00E6B6B5 /* Configgy.xcconfig in Resources */,
 				DE4D982C1E58A84900AAE05F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
