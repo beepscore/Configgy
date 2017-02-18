@@ -5,3 +5,12 @@
 //  Created by Steve Baker on 2/18/17.
 //  Copyright © 2017 Beepscore LLC. All rights reserved.
 //
+
+//:configuration = Debug
+SDKROOT = iphoneos
+
+//:configuration = Release
+SDKROOT = iphoneos
+
+//:completeSettings = some
+SDKROOT
