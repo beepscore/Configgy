@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		DE3BD0961E58AB590016D9C4 /* configa.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = configa.xcconfig; sourceTree = "<group>"; };
+		DE3BD0981E58AC170016D9C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE4D98231E58A84900AAE05F /* Configgy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Configgy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4D98261E58A84900AAE05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4D98281E58A84900AAE05F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		DE4D981A1E58A84900AAE05F = {
 			isa = PBXGroup;
 			children = (
+				DE3BD0981E58AC170016D9C4 /* README.md */,
 				DE3BD0961E58AB590016D9C4 /* configa.xcconfig */,
 				DE4D98251E58A84900AAE05F /* Configgy */,
 				DE4D983A1E58A84900AAE05F /* ConfiggyTests */,
