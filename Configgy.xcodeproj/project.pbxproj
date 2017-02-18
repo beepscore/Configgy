@@ -39,6 +39,7 @@
 		DE4D983D1E58A84900AAE05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA8B9D61E58AFAD00E6B6B5 /* Configgy.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Configgy.xcconfig; sourceTree = "<group>"; };
 		DEA8B9D81E58B17C00E6B6B5 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		DEA8B9D91E58B1C100E6B6B5 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 			children = (
 				DEA8B9D61E58AFAD00E6B6B5 /* Configgy.xcconfig */,
 				DEA8B9D81E58B17C00E6B6B5 /* Debug.xcconfig */,
+				DEA8B9D91E58B1C100E6B6B5 /* Release.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";
