@@ -6,7 +6,7 @@
 //  Copyright © 2017 Beepscore LLC. All rights reserved.
 //
 
-ONLY_ACTIVE_ARCH = YES
+SDKROOT = iphoneos
 
 THEME_BACKGROUND_COLOR = orange
 THEME_TEXT0 = I am orange

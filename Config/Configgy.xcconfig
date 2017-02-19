@@ -7,3 +7,6 @@
 //
 
 SDKROOT = iphoneos
+
+THEME_BACKGROUND_COLOR = blue
+THEME_TEXT0 = I am blue

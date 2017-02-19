@@ -412,9 +412,81 @@
 			};
 			name = Release;
 		};
+		DE65317D1E59881900489BC5 /* ReleaseOrange */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECAD8801E596F76000008E2 /* Orange.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseOrange;
+		};
+		DE65317E1E59881900489BC5 /* ReleaseOrange */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA8B9D91E58B1C100E6B6B5 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = Configgy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.Configgy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = ReleaseOrange;
+		};
+		DE65317F1E59881900489BC5 /* ReleaseOrange */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = ConfiggyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.ConfiggyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Configgy.app/Configgy";
+			};
+			name = ReleaseOrange;
+		};
 		DEC0326F1E597920001BD3AF /* DebugOrange */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEA8B9D61E58AFAD00E6B6B5 /* Configgy.xcconfig */;
+			baseConfigurationReference = DECAD8801E596F76000008E2 /* Orange.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -463,7 +535,7 @@
 		};
 		DEC032701E597920001BD3AF /* DebugOrange */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DECAD8801E596F76000008E2 /* Orange.xcconfig */;
+			baseConfigurationReference = DEA8B9D81E58B17C00E6B6B5 /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J2LXK9FK3W;
@@ -499,6 +571,7 @@
 				DE4D983E1E58A84900AAE05F /* Debug */,
 				DEC0326F1E597920001BD3AF /* DebugOrange */,
 				DE4D983F1E58A84900AAE05F /* Release */,
+				DE65317D1E59881900489BC5 /* ReleaseOrange */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -509,6 +582,7 @@
 				DE4D98411E58A84900AAE05F /* Debug */,
 				DEC032701E597920001BD3AF /* DebugOrange */,
 				DE4D98421E58A84900AAE05F /* Release */,
+				DE65317E1E59881900489BC5 /* ReleaseOrange */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -519,6 +593,7 @@
 				DE4D98441E58A84900AAE05F /* Debug */,
 				DEC032711E597920001BD3AF /* DebugOrange */,
 				DE4D98451E58A84900AAE05F /* Release */,
+				DE65317F1E59881900489BC5 /* ReleaseOrange */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
