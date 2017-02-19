@@ -31,8 +31,11 @@ class ViewController: UIViewController {
 
         if colorName == "blue" {
             return .blue
+        } else if colorName == "orange" {
+            return .orange
+        } else {
+            return .white
         }
-        return .white
     }
 
 }
