@@ -9,6 +9,7 @@
 SDKROOT = iphoneos
 
 PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.Orange
+PRODUCT_NAME = Orange
 
 THEME_BACKGROUND_COLOR = orange
 THEME_TEXT0 = I am orange
