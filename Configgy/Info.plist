@@ -41,5 +41,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>ThemeBackgroundColor</key>
+	<string>${THEME_BACKGROUND_COLOR}</string>
 </dict>
 </plist>
