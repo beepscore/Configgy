@@ -10,11 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet private weak var label0: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
         view.backgroundColor = viewBackgroundColor()
+        label0.text = label0Text()
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +39,14 @@ class ViewController: UIViewController {
         } else {
             return .white
         }
+    }
+
+    func label0Text() -> String {
+        guard let filePath = Bundle.main.path(forResource: "Info", ofType:"plist"),
+            let plist = NSDictionary(contentsOfFile:filePath),
+            let text = plist["ThemeText0"] as? String
+            else { return "" }
+        return text
     }
 
 }

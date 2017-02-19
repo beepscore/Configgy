@@ -43,5 +43,7 @@
 	</array>
 	<key>ThemeBackgroundColor</key>
 	<string>${THEME_BACKGROUND_COLOR}</string>
+	<key>ThemeText0</key>
+	<string>${THEME_TEXT0}</string>
 </dict>
 </plist>
