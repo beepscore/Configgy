@@ -8,5 +8,7 @@
 
 SDKROOT = iphoneos
 
+PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.Configgy
+
 THEME_BACKGROUND_COLOR = blue
 THEME_TEXT0 = I am blue
